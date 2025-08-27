@@ -1,0 +1,33 @@
+ .app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+
+  /* Warm sunset sky background with soft overlay */
+  background-image:
+    linear-gradient(rgba(77, 202, 255, 0.7), rgba(178, 255, 238, 0.7)),
+    url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  color: #0f09b4a6; /* rich amber */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.85);
+}
+
+.error-message {
+  color: #c2410c; /* deep red orange */
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.85);
+}

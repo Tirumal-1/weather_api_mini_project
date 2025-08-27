@@ -1,0 +1,41 @@
+.current-weather {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.current-weather__location {
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.current-weather__details {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.current-weather__icon {
+  font-size: 6rem;
+}
+
+.current-weather__temperature {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.current-weather__description {
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 0.25rem 0;
+}
+
+.current-weather__wind {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
